@@ -156,7 +156,7 @@ public void deleteCountryNegative(){
             .delete("/school-service/api/countries/"+countryID)
 
             .then()
-            .statusCode(400);
+            .statusCode(404);
     }
 
     // TODO : CitizenShip in API testini yapiniz
