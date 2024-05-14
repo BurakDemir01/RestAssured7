@@ -30,7 +30,7 @@ public class _07_GoRestUsersTest {
         baseURI = "https://gorest.co.in/public/v2/users";
 
         reqSpec = new RequestSpecBuilder()
-                .addHeader("Authorization", " Bearer eb134d5bcbdf9d5d073d66aa35b8d60297f3c6a33b2039d4c2a0acac6d4b1ac7")
+                .addHeader("Authorization", "Bearer eb134d5bcbdf9d5d073d66aa35b8d60297f3c6a33b2039d4c2a0acac6d4b1ac7")
                 .setContentType(ContentType.JSON)
                 .build();
     }
